@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.container{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: .5;
+    margin-bottom: 2rem;
+}
+.value{
+    font-size: 6rem;
+    font-weight: 500;
+    
+}
+
+.decrease,
+.increase{
+    width: 7rem;
+    height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    border-color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reset{
+    width: 5rem;
+    height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    margin: 0 .7rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
